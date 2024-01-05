@@ -1,0 +1,48 @@
+body{
+    font-family: arial;
+    background-color: rgb(185, 179, 175);
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+table,tr,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-family: tahoma;
+    font-size: 12px;
+    background-color: #f0f0f0;
+}
+td{
+    width: 75px;
+    height: 45px;
+}
+.head-table td{
+    background-color: #3B3B3B;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subject{
+    background-color: rgb(192, 208, 255);
+}
+.content p{
+    margin: 2px;
+}
+.table-in-sub{
+    margin: 0px;
+    padding: 0px;
+}
+.table-in-sub table, .table-in-sub tr,.table-in-sub td{
+    border: 0px;
+    padding: 0px;
+}
+.table-in-sub .content{
+    width: 170px;
+    background-color: rgb(192, 208, 255);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
