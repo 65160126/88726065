@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         todos[index].completed = !todos[index].completed;
         renderTodoList();
     }
-    // แสดงรายการ Todo บนหน้าเว็บ
+    // แสดงรายการ Todo บนหน้าเว็บไซต์
     function renderTodoList() {
     console.log(todos);
     todoList.innerHTML = "";
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
     todoList.appendChild(listItem);
     }
 }
-    // การกดปุ่ ม "เพิ่ม"
+    // การกดปุ่ม "เพิ่ม"
     addButton.addEventListener("click", addTodo);
     // การกด Enter ใน input
     todoInput.addEventListener("keypress", function (event) {
