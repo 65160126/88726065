@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const todoList = document.getElementById("todo-list");
     const todoInput = document.getElementById("todo-input");
     const addButton = document.getElementById("add-button");
-    // อาร์เรย์ส าหรับเก็บรายการ Todo
+    // อาร์เรย์สำหรับเก็บรายการ Todo
     let todos = [];
     // เพิ่มรายการ Todo
     function addTodo() {
