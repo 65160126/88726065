@@ -53,7 +53,7 @@ function renderTodoList() {
     todoList.appendChild(listItem);
     }
 }
-// การกดปุ่ ม "เพิ่ม"
+// การกดปุ่ม "เพิ่ม"
 addButton.addEventListener("click", addTodo);
 
 // การกด Enter ใน input
