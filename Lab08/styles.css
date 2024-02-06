@@ -8,7 +8,7 @@
 }
 
 .book_header {
-    background-color: rgb(138, 138, 255);
+    background-color: rgb(61, 61, 245);
     color: white;
     height: 80px;
     display: flex;
@@ -27,7 +27,7 @@ table, th, td,tr {
     background-color: rgb(225, 225, 255);
 }
 th {
-  background-color: rgb(138, 138, 255);
+  background-color: rgb(66, 66, 235);
   color: white;
 }
 
